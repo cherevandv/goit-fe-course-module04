@@ -5,7 +5,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: 1px solid green;
 }
 
 body {
@@ -15,7 +14,6 @@ body {
   line-height: 26px;
 }
 
-/*HEADER*/
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -66,9 +64,6 @@ header {
 .main-list-item a:hover {
   color: rgb(26, 188, 156);
 }
-
-/*MAIN*/
-
 .main-content {
   padding: 96px 0 80px 0;
 }
@@ -146,9 +141,6 @@ header {
   background-color: rgba(255, 255, 255, 0.439);
   float: right;
 }
-
-/*NEWS*/
-
 .news-list {
   margin: 0;
   padding: 80px 0 0 0;
