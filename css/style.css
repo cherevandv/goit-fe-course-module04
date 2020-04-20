@@ -6,25 +6,23 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #555252;
   font-size: 14px;
   line-height: 26px;
 }
-
 .container {
   width: 1110px;
   margin: 0 auto;
-}
-header {
-  padding-top: 36px;
 }
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
+}
+header {
+  padding-top: 36px;
 }
 .logo {
   margin: 0;
@@ -40,16 +38,14 @@ header {
   color: rgb(26, 188, 156);
   font-weight: bold;
 }
-.main-nav {
-  float: right;
-}
 .main-list-section {
   margin: 0;
   padding: 3px 0;
+  float: right;
 }
 .main-list-item {
   list-style: none;
-  display: inline-block;
+  float: left;
 }
 .main-list-item:not(:last-of-type) {
   margin-right: 34px;
