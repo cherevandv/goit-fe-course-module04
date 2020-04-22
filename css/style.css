@@ -74,7 +74,11 @@ header {
   text-align: center;
 }
 .title-section-product {
+  margin-bottom: 92px;
   color: #515151;
+}
+.title-section-news {
+  margin-bottom: 80px;
 }
 .title-section-product::after,
 .title-section-news::after {
@@ -89,8 +93,8 @@ header {
   background-color: rgb(78, 198, 171);
 }
 .list-products {
-  margin: 0;
-  padding: 92px 0 98px 0;
+  margin: 0 0 98px 0;
+  padding: 0;
 }
 .list-product-item {
   width: 255px;
@@ -119,27 +123,32 @@ header {
 .price-product {
   margin: 0;
   padding: 4px 0;
+  max-height: 40px;
   font-family: "Roboto";
   font-size: 18px;
   line-height: 32px;
   font-weight: 900;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .link-product {
+  max-width: 201px;
   padding-left: 12px;
   text-decoration: none;
   float: left;
 }
 .price-product {
   min-width: 54px;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.439);
   float: right;
 }
 .news-list {
   margin: 0;
-  padding: 80px 0 0 0;
+  padding: 0;
 }
 .news-list-item {
   list-style: none;
@@ -152,11 +161,12 @@ article {
   width: 350px;
 }
 .news-list-item img {
+  margin-bottom: 10px;
   display: block;
 }
 .news-list-item h3 {
-  margin: 0;
-  padding: 10px 0 24px 0;
+  margin: 0 0 24px 0;
+  padding: 0;
   font-size: 18px;
   line-height: 26px;
   font-weight: 600;
